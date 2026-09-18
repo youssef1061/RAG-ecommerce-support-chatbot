@@ -1,0 +1,30 @@
+{
+  "model": "character TF-IDF + LinearSVC",
+  "dataset": "papluca/language-identification",
+  "languages": [
+    "ar",
+    "bg",
+    "de",
+    "el",
+    "en",
+    "es",
+    "fr",
+    "hi",
+    "it",
+    "ja",
+    "nl",
+    "pl",
+    "pt",
+    "ru",
+    "sw",
+    "th",
+    "tr",
+    "ur",
+    "vi",
+    "zh"
+  ],
+  "validation_accuracy": 0.9954393770856508,
+  "test_accuracy": 0.9949641058609237,
+  "quick_mode": false,
+  "seed": 42
+}
