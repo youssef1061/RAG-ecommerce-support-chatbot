@@ -1,0 +1,9 @@
+{
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "rows": 24554,
+  "dimension": 384,
+  "index": "FAISS IndexFlatIP",
+  "similarity": "cosine via normalized inner product",
+  "held_out_intent_recall_at_3": 0.9971498371335505,
+  "seed": 42
+}
