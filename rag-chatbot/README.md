@@ -1,10 +1,6 @@
 # One-Notebook E-commerce RAG Chatbot
 
-Complete coursework implementation for **Youssef Hatem — 202201596**.
 
-## Main change
-
-All four required modules now live in one Kaggle notebook:
 
 `notebook/complete_ecommerce_rag_chatbot.ipynb`
 
@@ -13,10 +9,8 @@ Run it from top to bottom. It trains language detection, sentiment, intent routi
 ## Contents
 
 - `notebook/complete_ecommerce_rag_chatbot.ipynb` — the only training/integration notebook.
-- `RUN_ONE_NOTEBOOK.md` — exact Kaggle instructions and troubleshooting.
 - `app/` — local FastAPI API and browser chat interface.
-- `GITHUB_UPLOAD_GUIDE.md` — edit and upload procedure.
-- `PROJECT_REPORT_TEMPLATE.md` — report structure using actual notebook results.
+
 
 ## Local deployment
 
