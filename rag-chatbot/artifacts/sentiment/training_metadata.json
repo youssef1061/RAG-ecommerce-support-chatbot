@@ -1,0 +1,27 @@
+{
+  "base_model": "distilbert-base-uncased",
+  "dataset": "dair-ai/emotion",
+  "mapping": {
+    "negative": [
+      "sadness",
+      "anger",
+      "fear"
+    ],
+    "neutral": [
+      "surprise"
+    ],
+    "positive": [
+      "joy",
+      "love"
+    ]
+  },
+  "test_accuracy": 0.972,
+  "test_macro_f1": 0.9126201574310606,
+  "epochs": 2,
+  "quick_mode": false,
+  "seed": 42,
+  "limitations": [
+    "Twitter-to-support domain shift",
+    "Surprise is an imperfect neutral proxy"
+  ]
+}
